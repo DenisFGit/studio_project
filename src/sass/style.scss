@@ -1,3 +1,13 @@
-h1 {
-    color: red;
+* {
+    font-family: 'Inter', sans-serif;
+    // box-sizing: border-box;
 }
+.container {
+    padding: 0 13%;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/keywords';
+@import 'blocks/about';
