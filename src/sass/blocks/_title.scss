@@ -1,0 +1,18 @@
+.title {
+    position: relative;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: $dark-color;
+    &::after {
+        content: '';
+        display: block;
+        border: 2px solid #000;
+        width: 75px;
+        margin-top: 3px;
+        position: absolute;
+        left: 51%;
+
+    }
+}
