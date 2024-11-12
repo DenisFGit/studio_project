@@ -1,0 +1,14 @@
+.customers {
+    background-color: $light-color;
+    padding-bottom: 100px;
+    &__wrapper {
+        margin-top: 50px;
+        width: 1058px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img {
+            box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+}

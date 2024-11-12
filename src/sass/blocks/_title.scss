@@ -13,6 +13,18 @@
         margin-top: 3px;
         position: absolute;
         left: 51%;
+        background-color: $light-color;
 
+
+    }
+    &_inspiration {
+        &:after {
+            left: 54.7%;
+        }
+    }
+    &_customers {
+        &:after {
+            left: 54%;
+        }
     }
 }
