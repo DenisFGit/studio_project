@@ -24,6 +24,7 @@
         color: $light-color;
         address {
             font-style: normal;
+            margin-bottom: 0;
         }
         &::before {
             content: "";
@@ -32,7 +33,7 @@
             height: 50px;
             position: absolute;
             left: -45px;
-            bottom: 25px;
+            bottom: 31px;
             background: url('../icons/Arrow.svg');
         }
     }

@@ -1,4 +1,6 @@
 .title {
+    width: fit-content;
+    margin: 0 auto;
     position: relative;
     font-style: italic;
     font-weight: 400;
@@ -10,21 +12,9 @@
         display: block;
         border: 2px solid #000;
         width: 75px;
-        margin-top: 3px;
         position: absolute;
-        left: 51%;
+        right: 0;
+        bottom: -1px;
         background-color: $light-color;
-
-
-    }
-    &_inspiration {
-        &:after {
-            left: 54.7%;
-        }
-    }
-    &_customers {
-        &:after {
-            left: 54%;
-        }
     }
 }
