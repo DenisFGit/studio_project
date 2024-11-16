@@ -13,9 +13,6 @@
 }
 
 @media (max-width:768px) {
-    // .container {
-    //     padding: 0 6%;
-    // }
     .promo {
         background-image: url('../img/Bg_rose_768px.jpg');
         &__title {
@@ -92,32 +89,26 @@
             gap: 30px 20px;
         }
         #img_man {
-            grid-area: man;
             grid-column: 1;
             grid-row: 1;
         }
         #img_horses {
-            grid-area: horses;
             grid-column: 2;
             grid-row: 1;
         }
         #img_bridge_wooden {
-            grid-area: bridge_wooden;
             grid-column: 1;
             grid-row: 2;
         }
         #img_tenement {
-            grid-area: tenement;
             grid-column: 2;
             grid-row: 2/4;
         }
         #img_cat_white {
-            grid-area: cat_white;
             grid-column: 1;
             grid-row: 3;
         }
         #img_sky {
-            grid-area: sky;
             grid-column: 1/3;
             grid-row: 4;
         }
@@ -137,7 +128,6 @@
         padding: 30px 0 40px 0;
         .container {
             padding: 0 6%;
-            // min-height: 100%;
         }
         &__wrapper {
             flex-direction: column;
@@ -230,32 +220,26 @@
             grid-template-rows: repeat(7, 1fr);
         }
         #img_man {
-            grid-area: man;
             grid-column: 1;
             grid-row: 1/2;
         }
         #img_horses {
-            grid-area: horses;
             grid-column: 1;
             grid-row: 2/3;
         }
         #img_bridge_wooden {
-            grid-area: bridge_wooden;
             grid-column: 1;
             grid-row: 3/4;
         }
         #img_tenement {
-            grid-area: tenement;
             grid-column: 1;
             grid-row: 4/6;
         }
         #img_cat_white {
-            grid-area: cat_white;
             grid-column: 1;
             grid-row: 6/7;
         }
         #img_sky {
-            grid-area: sky;
             grid-column: 1;
             grid-row: 7;
         }
